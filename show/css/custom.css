@@ -1,0 +1,19 @@
+.backdrop {
+	background-color: black;
+	opacity: 0.8;
+	padding: 0.5em 1em!important;
+	border-radius: 20px;
+	position: relative;
+	top: 300px;		
+}
+
+.cc-orange {
+	color: #ee5b32!important;
+}
+
+.credits {
+	font-size: 40%!important;
+	font-style: italic!important;
+	margin-top: 20%!important;
+
+}
