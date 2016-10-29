@@ -35,7 +35,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background="images/ellington-dark.jpg">
+				<section data-background="images/ellington.jpg" data-state="dimbg">
 					<h1>In the MOOD</h1>
 					<h3>Building the Creative Commons Certification</h3>
 					<p><em>The 2016 Open Education Conference</em></p>
@@ -45,7 +45,7 @@
 					</p>
 				</section>
 				
-				<section data-background="images/coffee.jpg">
+				<section data-background="images/coffee0.jpg" data-state="dimbg">
 					<h2>Inside a Local Coffee Shop</h2>
 					
 					<p class="credits">CC-BY Wikimedia Commons photo
@@ -53,31 +53,88 @@ https://en.wikipedia.org/wiki/File:Turkishcoffee....jpg</p>
 				</section>
 				
 
-				<section data-background="images/opened-15.jpg">
+				<section data-background="images/opened-15-0.jpg"  data-state="dimbg">
 					<h2>Last Year at Open Ed</h2>
 					
-					<p class="credits">flickr photo by cogdogblog https://flickr.com/photos/cogdog/22725952718 shared under a Creative Commons (BY) license</p>
+					<p class="credits"><a href="https://flickr.com/photos/cogdog/22725952718">Tom Woodward Pondering Opened15</a> flickr photo by <a href="https://www.flickr.com/photos/cogdog/">Alan Levine</a>  licensed <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a></p>
 				</section>
 				
 				
 			
-				<section>
-					<h2>Certification?</h2>
+				<section data-background="images/cred-why.jpg" data-state="dimbg">
+					<h2>Certification? Why?</h2>
+					<img width="400" height="150" alt="CC-CERT GOV LIB EDU" data-src="images/cc-cert.png" style="background:none; border:none; box-shadow:none;">
 				</section>
 				
-				<section data-background="images/spreadsheet-draft11.jpg">
+				<section>
+					<section>
+						<h1>M<span class="fragment">assively</span></h1>
+					</section>
+					
+					<section data-background="images/team.jpg">
+						<h2>Starts with a Team</h2>
+						
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						
+						<p class="credits"><a href="https://www.flickr.com/photos/cogdog/26930909551/">CC Certification Team</a> flickr photo by <a href="https://www.flickr.com/photos/cogdog/">Alan Levine</a>  licensed <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a></p>
+					</section>
+
+					<section data-background="images/may-dc-meeting.jpg">
+						<h2>May 2016 Meeting</h2>
+						
+						<p>Government, Library, Education Expert Input</p>
+					</section>
+					
+					<section data-background="images/what-if.jpg">
+				
+						 <div class="backdrop">
+						 <h2 class="cc-orange">What If Videos</h2>
+						 <p><a href="https://certificates.creativecommons.or/gwhat-if/" target="_blank">https://certificates.creativecommons.org/what-if/</a></p>
+						 </div>
+					</section>
+
+					<section data-background="images/ccquest-twitter.jpg">
+				
+						 <div class="backdrop">
+						 <h2 class="cc-orange">#CCQuest</h2>
+						 <p><a href="https://twitter.com/hashtag/ccquest?f=tweets&vertical=default" target="_blank">https://twitter.com/hashtag/ccquest</a></p>
+						 </div>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>M O<span class="fragment">pen</span></h1>
+					</section>
+				</section>
+				
+				<section data-background="images/spreadsheet-draft11.jpg" data-state="dimbg">
 					<h2>Draft Specs 1.1</h2>
 					
 					<p>CC Certificate Daft v 1.1 <a href="http://bit.ly/CCCertificate" target="_blank">http://bit.ly/CCCertificate</a></p>
 				</section>				
 				
-				
-				<section data-background="images/fork.jpg">
-					<h2>A Forking Good Idea?</h2>
-				</section>
-				
 				<section>
-					<h2>Spreadsheet to GitHub</h2>
+					<section data-background="images/fork.jpg">
+						<h2>A Forking Good Idea?</h2>
+					
+						<p class="credits">Composite of <a href="https://pixabay.com/en/ranch-barn-buildings-agriculture-718419/">Ranch Building</a> Pixabay photo by <a href="https://pixabay.com/en/users/skeeze-272447/">skeeze</a> and <a href="https://pixabay.com/en/fork-silverware-utensil-cutlery-41024/">Fork</a> Pixabay photo by <a href="https://pixabay.com/en/users/Clker-Free-Vector-Images-3736/">Clker-Free-Vector-Images</a> both licensed  <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a></p>
+					
+					</section>
+					
+					<section data-background="images/cc-cert-forks.jpg">
+					
+					</section>
+
+					<section>
+						<h2>Spreadsheet -&gt; GitHub Site</h2>
+						<p><a href="https://cogdog.github.io/cc-cert-map-archive/core.html" target="_blank"><img width="80%"  alt="Spreadsheet recast as GitHub Site" data-src="images/cc-map-archive.jpg"></a></p>
+						
+						<p><a href="https://cogdog.github.io/cc-cert-map-archive/" target="_blank">https://cogdog.github.io/cc-cert-map-archive/</a></p>
+						
+					
+					</section>
 				</section>
 				
 				
@@ -99,6 +156,11 @@ https://en.wikipedia.org/wiki/File:Turkishcoffee....jpg</p>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+				
+				 // Transition style for full page slide backgrounds
+   				 backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
+
+
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
@@ -107,6 +169,7 @@ https://en.wikipedia.org/wiki/File:Turkishcoffee....jpg</p>
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
+				
 			});
 		</script>
 	</body>
