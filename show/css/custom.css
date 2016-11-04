@@ -4,7 +4,8 @@
 	padding: 0.5em 1em!important;
 	border-radius: 20px;
 	position: relative;
-	top: 300px;		
+	top: 300px;	
+	word-wrap: break-word;	
 }
 
 .cc-orange {
@@ -21,6 +22,10 @@
 
 html.dimbg .slide-background {
     opacity: 0.2 !important;
+}
+
+html.dimsomebg .slide-background {
+    opacity: 0.5 !important;
 }
 
 
