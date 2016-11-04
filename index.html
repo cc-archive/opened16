@@ -1,315 +1,76 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<meta charset="utf-8">
-
 		<title>In the MOOD: Building the Creative Commons Certification</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
-
-		<meta name="description" content="A presentation on the Creative Commons Certification project at the 206 Open Education Conference">
-		<meta name="author" content="Paul Stacey and Alan Levine">
-
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	
-
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css">
+		<!-- featherlight css for lightbox -->
+		<link href="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 		
-		<link rel="stylesheet" href="css/custom.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<style>
+		.featherlight .featherlight-content {
+    background: gray!important;
+    }
+		</style>
 		
-		<!-- iconish -->
-		<link rel="icon" href="https://certificates.creativecommons.org/wp-content/uploads/2016/06/cropped-cc-512-32x32.png" sizes="32x32" />
-
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background="images/ellington.jpg" data-state="dimbg">
-					<h1>In the MOOD</h1>
-					<h3>Building the Creative Commons Certification</h3>
-					<p><em>The 2016 Open Education Conference</em></p>
-					<p><a href="https://edtechfrontier.com/">Paul Stacey</a> &bull; <a href="http://twitter.com/pgstacey">@pgstacey</a></p>
-						<p><a href="http://cog.dog/">Alan Levine</a> &bull; <a href="http://twitter.com/cogdog">@cogdog</a></p>
-						
-					<p>creativecommons.github.io/opened16</p>
-						
-					</p>
-				</section>
-				
-				<section data-background="images/coffee0.jpg" data-state="dimbg">
-					<h2>Inside a Richmond Coffee Shop<sup>*</sup></h2>
-					
-					<p><em><sup>*</sup> Whose name does not rhyme with "far ducks"</em></p>
-					
-					<p class="credits"><a href="https://en.wikipedia.org/wiki/File:Turkishcoffee....jpg" target="_blank">Turkishcoffee...</a> Wikimedia Commons photo by <a href="https://commons.wikimedia.org/wiki/User:Ekim_Caglar" target="_blank">Ekim Caglar</a> licensed <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA</a> 
-</p>
-				</section>
-				
 
-				<section data-background="images/opened-15-0.jpg"  data-state="dimbg">
-					<h2>Last Year at Open Ed</h2>
-					
-					<p class="credits"><a href="https://flickr.com/photos/cogdog/22725952718">Tom Woodward Pondering Opened15</a> flickr photo by <a href="https://www.flickr.com/photos/cogdog/">Alan Levine</a>  licensed <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a></p>
-				</section>
-				
-				
-				<section>
-					<section data-background="images/cred-why.jpg">
-						<h2>Certification? Why?</h2>
-						<img width="400" height="150" alt="CC-CERT GOV LIB EDU" data-src="images/cc-cert.png" style="background:none; border:none; box-shadow:none;">
-					</section>
-					
-					<section data-background="images/certs-reviewed.jpg" >
-						<h2>Certifications Reviewed</h2>
-					
-						<p><a href="https://docs.google.com/document/d/1cKTBYZTbS4rYI-dUI1YUwgmvshEBbEzpdcyc9oELloI/edit?usp=sharing" target="_blank">View review notes</a></p>
-					</section>
-								
-				</section>
-				
-				
-				
-				<section>
-					<section>
-						<h1>M<span class="fragment">assively</span></h1>
-					</section>
-					
-					<section data-background="images/team.jpg">
-						<h2>Starts with a Team</h2>
-						
-						<p>&nbsp;</p>
-						<p>&nbsp;</p>
-						
-						<p class="credits"><a href="https://www.flickr.com/photos/cogdog/26930909551/">CC Certification Team</a> flickr photo by <a href="https://www.flickr.com/photos/cogdog/">Alan Levine</a>  licensed <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a></p>
-					</section>
+		<!-- Header -->
+			<header id="header">
+				<h1>In the MOOD: Building the Creative Commons Certification</h1>
+				<h2>Paul Stacey & Alan Levine, Open Education 2016 Conference, Nov 4, 2016</h2>>
+				<p><a href="#" data-featherlight="proposal.html" class="button">Proposal</a> <a href="show/index.html"  class="button">Presentation</a> </p>
+			</header>
 
-					<section data-background="images/may-dc-meeting.jpg">
-						<h2>May 2016 Meeting</h2>
-						
-						<p>Government, Library, Education Expert Input</p>
-					</section>
-					
-					<section data-background="images/what-if.jpg">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">What If Videos</h2>
-						 <p><a href="https://certificates.creativecommons.or/gwhat-if/" target="_blank">https://certificates.creativecommons.org/what-if/</a></p>
-						 </div>
-					</section>
-
-					<section data-background="images/ccquest-twitter.jpg">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">#CCQuest</h2>
-						 <p><a href="https://twitter.com/hashtag/ccquest?f=tweets&vertical=default" target="_blank">https://twitter.com/hashtag/ccquest</a></p>
-						 </div>
-					</section>
-
-
-					<section data-background="images/cc-cert-slack.jpg">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Signup for CC Slack</h2>
-						 
-						 <p>Join #cc-certificates channel<br /><a href="hhttps://slack-signup.creativecommons.org/" target="_blank">https://slack-signup.creativecommons.org/</a></p>
-						 </div>
-					</section>
-
-				</section>
-				
-				<section>
-					<section>
-						<h1>M O<span class="fragment">pen</span></h1>
-					</section>
-					
-					
-					<section data-background-iframe="https://certificates.creativecommons.org/">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Open Blogging</h2>
-						 <p><a href="https://certificates.creativecommons.org/" target="_blank">https://certificates.creativecommons.org/</a></p>
-						 </div>
-					</section>
-
-					<section data-background="images/spreadsheet-draft11.jpg">
-					
-					
-							<div class="backdrop">
-								 <h2 class="cc-orange">CC Certificate Draft v 1.1</h2>
-								 <p><a href="http://bit.ly/CCCertificate" target="_blank">http://bit.ly/CCCertificate</a></p>
-							 </div>
-					</section>	
-
-					<section>
-						<h2>Spreadsheet -&gt; GitHub Site</h2>
-						<p><a href="https://cogdog.github.io/cc-cert-map-archive/core.html" target="_blank"><img width="80%"  alt="Spreadsheet recast as GitHub Site" data-src="images/cc-map-archive.jpg"></a></p>
-						
-						<p><a href="https://cogdog.github.io/cc-cert-map-archive/" target="_blank">https://cogdog.github.io/cc-cert-map-archive/</a></p>
-						
-					
-					</section>					
-				
-
-				</section>
-				
-				
-				<section>
-					<section>
-						<h1>M O O<span class="fragment">er</span></h1>
-					</section>
-					
-					<section data-background="images/wheels.jpg">
-					
-					
-						<h2>Prevention of Reinvention</h2>
-					
-						<p class="credits"><a href="https://commons.wikimedia.org/wiki/File:Leibniz_Calculator_Using_The_Pascaline.jpg">Leibniz Calculator Using The Pascaline</a> Wikimedia image by Leibniz (1865)  licensed <a href="https://en.wikipedia.org/wiki/Public_domain">Public Domain</a></p>
-					
-					</section>	
-					
-					<section data-background-iframe="https://certificates.creativecommons.org/2016/09/creative-commons-certificates-potluck-style/">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Potluck Style</h2>
-						 <p><a href="https://certificates.creativecommons.org/2016/09/creative-commons-certificates-potluck-style/" target="_blank">https://certificates.creativecommons.org/2016/09/creative-commons-certificates-potluck-style/</a></p>
-						 </div>
-					</section>
-					
-				</section>
-					
-
-				<section>
-					<section>
-						<h1>M O O D<span class="fragment">evelopment</span></h1>
-					</section>
-					
-					<section data-background-iframe="https://certificates.creativecommons.org/certs/core/">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">CORE Certification</h2>
-						 <p><a href="https://certificates.creativecommons.org/certs/core/" target="_blank">https://certificates.creativecommons.org/certs/core/</a></p>
-						 </div>
-					</section>
-
-					
-					<section data-background="images/fork.jpg">
-						<h2>A Forking Good Idea?</h2>
-					
-						<p class="credits">Composite of <a href="https://pixabay.com/en/ranch-barn-buildings-agriculture-718419/">Ranch Building</a> Pixabay photo by <a href="https://pixabay.com/en/users/skeeze-272447/">skeeze</a> and <a href="https://pixabay.com/en/fork-silverware-utensil-cutlery-41024/">Fork</a> Pixabay photo by <a href="https://pixabay.com/en/users/Clker-Free-Vector-Images-3736/">Clker-Free-Vector-Images</a> both licensed  <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a></p>
-					
-					</section>
-					
-					<section data-background="images/cc-cert-forks.jpg">
-					
-					</section>
-
-
-					<section data-background="images/significance-commons-md.jpg">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Markdown Source Content</h2>
-						 <p><a href="https://github.com/creativecommons/cc-cert-map/blob/master/core/commons/significance.md" target="_blank">https://github.com/creativecommons/cc-cert-map/blob/master/core/commons/significance.md</a></p>
-						 </div>
-					</section>
-
-
-					<section data-background-iframe="https://certificates.creativecommons.org/certs/core/commons/significance/">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Markdown in Wordpress</h2>
-						 <p><a href="https://certificates.creativecommons.org/certs/core/commons/significance/" target="_blank">https://certificates.creativecommons.org/certs/core/commons/significance/</a></p>
-						 </div>
-					</section>
-
-					<section data-background="images/106-bank-github.jpg"  data-state="dimsomebg">
-					
-						<h2>Quests</h2>		
-		
-						<p>Built with ds106 Assignment Bank Wordpress theme <a href="https://github.com/cogdog/ds106bank" target="_blank">https://github.com/cogdog/ds106bank</a></p>
-					
-					</section>
-
-
-					<section data-background-iframe="https://quests.creativecommons.org/assignments/aspects-of-digital-vs-digital-sharing/">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Sample Quest</h2>
-						 <p><a href="https://quests.creativecommons.org/assignments/aspects-of-digital-vs-digital-sharing/" target="_blank">https://quests.creativecommons.org/assignments/aspects-of-digital-vs-digital-sharing/</a></p>
-						 </div>
-					</section>
-				</section>
-
-				<section>
-					<section data-background-iframe="https://certificates.creativecommons.org/2016/10/a-community-sourced-credential-is-it-even-possible/">
-				
-						 <div class="backdrop">
-						 <h2 class="cc-orange">Community Sourced?</h2>
-						 <p><a href="https://certificates.creativecommons.org/2016/10/a-community-sourced-credential-is-it-even-possible/" target="_blank">https://certificates.creativecommons.org/2016/10/a-community-sourced-credential-is-it-even-possible/</a></p>
-						 </div>
-					</section>					
-					
-					<section>
-					<h2>Cubic Units of Learning</h2>
-					
-					<img width="600" height="450" alt="square-units-of-learning" data-src="images/square-units-of-learning.gif">
-					
-					</section>
-				
-				</section>
-				
-
-					<section data-background="../images/mood-boat.jpg"   data-state="dimsomebg">
-						<h2>Sail With Us</h2>
-						<p>web site: <a href="http://certificates.creativecommons.org/" target="_blank">certificates.creativecommons.org</a></p>
-						<p>#CCQuest: <a href="https://twitter.com/hashtag/ccquest?f=tweets&vertical=default" target="_blank">https://twitter.com/hashtag/ccquest</a></p>
-						
-						<p>Email Updates: <a href="https://certificates.creativecommons.org/subscribe/" target="_blank">certificates.creativecommons.org/subscribe/</a></p>
-						
-						<p>Presentation: <a href="http://creativecommons.github.io/opened16" target="_blank">creativecommons.github.io/opened16</a></p>
-						
-					</section>
+		<!-- Signup Form -->
+			<h2>Image Credits</h2>
 			
-								
-			</div>
-		</div>
+<ul>
+	<li>			Duke Ellington (<a href="https://commons.wikimedia.org/wiki/File:Duke_Ellington_orchestra_mood_indigo.jpg">Public Domain Wikimedia Commons</a>) </li>
+	<li>			Mood O'Clock (<a href="https://www.youtube.com/watch?v=Xa_PjzwD--s">CC-BY YouTube </a>)</li>
+	<li>			Mood Ring (<a href="https://flickr.com/photos/abbyladybug/3718953620">CC-BY-NC Flickr</a>)</li>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
-				
-				 // Transition style for full page slide backgrounds
-   				 backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
+	<li>In the Mood for Love 2.0 [花樣年華 2.0] Mash Up Edition (<a href="https://www.youtube.com/watch?v=YbaeknS719Y">CC-BY YouTube</a>)</li>
+	<li>Mood Boat (<a href="https://commons.wikimedia.org/wiki/File:In_the_Mood_Stern_Lennusadam_Tallinn_16_May_2014.JPG">CC-BY-SA Wikimedia Commons</a>)</li>
+</ul>
 
 
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-				
-			});
-		</script>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/creativecommons/opened16" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://twitter.com/creativecommons/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					
+				</ul>
+				<ul class="copyright">
+					<li>Eventually theme (<a href="http://html5up.net/license">CC-BY</a>) from <a href="http://html5up.net">HTML5 UP</a></li> 
+					<li>website by <a href="http://cog.dog">cog.dog</a></li>
+				</ul>
+			</footer>
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+
+			<!-- featherlight for lightbox -->
+			<script src="//code.jquery.com/jquery-latest.js"></script>
+			<script src="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+
 	</body>
 </html>
